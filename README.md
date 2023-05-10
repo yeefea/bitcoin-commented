@@ -2,8 +2,13 @@
 
 ## Build
 
+看`doc/build-unix.md`
+
 ```bash
-./configure && make
+./autogen.sh
+./configure
+make # use "-j N" for N parallel jobs
+make install # optional
 ```
 
 ## References
